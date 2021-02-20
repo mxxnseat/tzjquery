@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+.app{
+    max-width: 600px;
+    margin: 100px auto;
+}
+.option{
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.option.active{
+    border-color: #2c2c7e;
+    background: #4444da;
+    color: #fff;
+}
+.output{
+    display: flex;
+    margin-top: 40px;
+    column-gap: 40px;
+}
+.sliders, .output-box{
+    flex: 1;
+}
+.sliders{
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.output-box{
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 20px;
+}
+#r .ui-widget-header{
+    background-color: red;
+}
+#g .ui-widget-header{
+    background-color: green;
+}
+#b .ui-widget-header{
+    background-color: blue;
+}
